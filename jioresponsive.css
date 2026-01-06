@@ -1,0 +1,340 @@
+@media screen and (min-width:320px) and (max-width:425px) {
+    .left-nav li {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        margin: 0px 20px;
+    }
+
+    .navbar {
+        height: 65px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .right-nav {
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .first-sec {
+        margin: 10px 0px;
+    }
+
+    .first-sec h1 {
+        font-size: 20px;
+    }
+
+    .first-sec-1 {
+        padding: 10px;
+    }
+
+    .first-sec-1 input {
+        padding: 0px;
+        width: 40vw;
+        outline: none;
+        height: 30px;
+    }
+
+    .line i {
+        display: none;
+    }
+
+    .line {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+    }
+
+    .first-sec-2 {
+        margin: 10px;
+    }
+
+    .first-sec-icons {
+        width: 50%;
+    }
+
+    .heading h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .second-sec {
+        flex-direction: column;
+        gap: 10px;
+        height: 100%;
+    }
+
+    .sec-img-1 {
+        width: 100%;
+    }
+
+    .chat h1 {
+        font-size: 1.5rem;
+    }
+
+    .chat-2 h1 {
+        font-size: 1.4rem;
+        padding-right: 15px;
+    }
+
+    .sec-img-2 {
+        width: 100%;
+    }
+
+    .third-sec h1 {
+        font-size: 2rem;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .third-img {
+        height: 100%;
+        padding: 0px 10px;
+    }
+
+    .third-img img {
+        height: 100vh;
+        width: 100vw;
+        background-position: center;
+    }
+
+    .third-one {
+        top: 10%;
+    }
+
+    .third-one h1 {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .forth-sec h1 {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .forth-sec p {
+        text-align: center;
+        padding: 0px 10px;
+    }
+
+    .fifth-sec {
+        gap: 10px;
+    }
+
+    .first-one {
+        width: 100%;
+        margin: 0px 10px;
+    }
+
+    .first-one h2 {
+        font-size: 16px;
+        font-weight: 800;
+    }
+
+    .first-one p {
+        margin: 10px 0px;
+        font-size: 14px;
+    }
+
+    .first-foot h1 {
+        font-size: 2.5rem;
+        padding: 10px 30px;
+        text-align: center;
+    }
+
+    .foot-icon {
+        flex-direction: column;
+    }
+
+    .foot-1 {
+        padding: 10px 50px;
+    }
+
+    .second-foot {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px 15px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .right-foot a {
+        display: none;
+    }
+
+    .right-foot {
+        align-items: center;
+        flex-direction: row;
+        margin: 5px 0px;
+    }
+
+    .right-foot div {
+        display: flex;
+        border-bottom: 1px solid gray;
+        width: 80vw;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .right-foot div i {
+        display: block;
+        padding-bottom: 30px;
+    }
+
+    .down-foot {
+        flex-direction: column;
+        margin: 10px 0px;
+    }
+
+    .foot-img {
+        flex-direction: column;
+    }
+
+    .third-foot {
+        flex-direction: column;
+        height: 100%;
+        width: 100vw;
+        flex-wrap: wrap;
+        border: none;
+        align-items: flex-start;
+    }
+
+    .links {
+        padding: 0px;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .links a {
+        padding: 5px 0px;
+        margin: 10px 0px;
+        font-size: 10px;
+    }
+
+    .third-foot p {
+        font-size: 11px;
+        padding: 0px 10px;
+        width: 80vw;
+    }
+}
+
+
+
+@media screen and (min-width:426px) and (max-width:768px) {
+    .left-nav li {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        margin: 0px 10px;
+    }
+
+    .navbar {
+        height: 65px;
+        background-color: aqua;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .left-nav {
+        align-items: center;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .first-sec-2 {
+        margin: 10px;
+        width: 100%;
+        height: 100%;
+        gap: 20px;
+    }
+
+    .first-sec-icons {
+        text-align: center;
+        width: 15vw;
+    }
+
+    .chat h1 {
+        font-size: 1.5rem;
+    }
+    .chat-2 h1 {
+        font-size: 1.5rem;
+    }
+    .third-sec h1{
+        font-size: 2rem;
+    }
+    .third-one h1{
+        font-size: 1.5rem;
+    }
+    .forth-sec h1{
+        font-size: 2rem;
+    }
+    .fifth-sec {
+        gap: 10px;
+    }
+
+    .first-one {
+        width: 40%;
+        margin: 0px 10px;
+    }
+
+    .first-one h2 {
+        font-size: 16px;
+        font-weight: 800;
+    }
+
+    .first-one p {
+        margin: 10px 0px;
+        font-size: 14px;
+    }
+
+    .first-foot h1 {
+        font-size: 2.5rem;
+        padding: 10px 30px;
+        text-align: center;
+    }
+    .second-foot{
+        height: 100%;
+        padding: 10px 0px;
+    }
+    .third-foot{
+        height: 100%;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .left-nav { 
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+    .first-sec-2{
+        gap: 25px;
+        text-align: center;
+    }
+    .chat h1 {
+        font-size: 2rem;
+    }
+    .chat-2 h1 {
+        font-size: 2rem;
+    }
+    .second-foot {
+        height: 100%
+    }
+
+}
